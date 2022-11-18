@@ -64,3 +64,8 @@ tabs.forEach(tab =>{
         tab.classList.add('qualifications__active')
     })
 })
+
+/* SERVICES MODAL */
+const modalViews = document.querySelectorAll('.services__modal'),
+      modalBtns = document.querySelectorAll('.services__button'),
+      modalCloses = document.querySelectorAll('.services__modal-close')
