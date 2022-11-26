@@ -389,6 +389,26 @@ img{
     color: var(--first-color-alt);
 }
 
+#form-submit-btn{
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: var(--font-medium);
+    font-family: var(--body-font);
+    border: none;
+    float: right;
+}
+
+#form-submit-btn:hover{
+    background-color: var(--first-color-alt);
+    cursor: pointer;
+}
+
+/* .submit-form:hover #submit-icon{
+    transform: translateY(-0.5rem);
+} */
+
 /* ABOUT */
 .about__img{
     width: 200px;
@@ -805,8 +825,10 @@ img{
 }
 
 .project__img{
-    width: 232px;
+    width: 320px;
     justify-self: center;
+    border-radius: .6rem;
+    margin-bottom: 1rem;
 }
 
 /* TESTIMONIAL */
@@ -1090,6 +1112,14 @@ img{
         margin-left: 10px;
         margin-right: 80px;
     }
+
+    .project__data{
+        padding-bottom: 3rem;
+    }
+
+    .project__img{
+        width: 335px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -1226,7 +1256,7 @@ img{
         column-gap: 3rem;
     }
     .project__data{
-        padding-top: .8rem;
+        padding-bottom: 3rem;
     }
 
     .footer__container{
@@ -1264,6 +1294,10 @@ img{
 
     .services__container{
         grid-template-columns: repeat(3, 238px);
+    }
+
+    .project__data{
+        padding-bottom: 3rem;
     }
 
     .portfolio__content{
