@@ -557,6 +557,14 @@ img{
 .qualifications__button:hover{
     color: var(--first-color);
 }
+#education-button{
+    margin-right: 10px;
+    margin-left: 8px;
+}
+#work-button{
+    margin-left: 30px;
+    margin-right: 40px;
+}
 
 .qualifications__icon{
     font-size: 1.8rem;
@@ -1074,6 +1082,14 @@ img{
         grid-template-columns: .6fr;
         justify-content: center;
     }
+    #education-button{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    #work-button{
+        margin-left: 10px;
+        margin-right: 80px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -1161,8 +1177,15 @@ img{
     .qualifications__tabs{
         justify-content: center;
     }
-    .qualifications__button{
+    /* .qualifications__button{
         margin: 0 var(--mb-1);
+    } */
+    #education-button{
+        margin-right: 70px;
+    }
+    #work-button{
+        margin-left: 10px;
+        margin-right: 60px;
     }
     .qualifications__sections{
         grid-template-columns: .5fr;
@@ -1255,7 +1278,7 @@ img{
     .swiper-button-next{
         right: -3.5rem;
     }
-    .swiper-horizontal > .swiper-pagination-bullets{
+    .swiper-horizontal > .swiper-pagination-bullet{
         bottom: -4.5rem;
     }
     
