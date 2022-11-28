@@ -130,6 +130,10 @@ img{
     height: auto;
 }
 
+#name__in__color{
+    color: var(--first-color);
+}
+
 
 /* reusable CSS classes */
 .section{
