@@ -765,15 +765,15 @@
                         </div>
                     </div>
 
-                    <form action="https://getform.io/f/b1b4fe34-17c9-44f4-9efc-56f8d87c82c4" method="POST" class="contact__form grid">
+                    <form name="contact-form" action="https://getform.io/f/b1b4fe34-17c9-44f4-9efc-56f8d87c82c4" method="POST" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
-                                <label for="name"  class="contact__label">Name</label>
-                                <input type="text" name="name" class="contact__input">
+                                <label for="name"  class="contact__label">Name <small style="color: red;">*</small></label>
+                                <input type="text" name="name" class="contact__input" required>
                             </div>
                             <div class="contact__content">
-                                <label for="email"  class="contact__label">Email</label>
-                                <input type="email" name="email" class="contact__input">
+                                <label for="email"  class="contact__label">Email <small style="color: red;">*</small></label>
+                                <input type="email" name="email" class="contact__input" required>
                             </div>
                         </div>
                         <div class="contact__content">
@@ -781,13 +781,13 @@
                             <input type="text" name="project" class="contact__input">
                         </div>
                         <div class="contact__content">
-                            <label for="message" name="message" class="contact__label">Message</label>
-                            <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <label for="message" name="message" class="contact__label">Message <small style="color: red;">*</small></label>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
                         </div>
 
                         <div>
-                            <button id="form-submit-btn" class="submit-form" type="submit">
-                                Submit <i class="uil uil-envelope-upload button__icon" id="submit-icon"></i>
+                            <button id="form-submit-btn" class="button--flex" type="submit">
+                                Submit <i class="uil uil-envelope-upload button__icon"></i>
                             </button>
                             <!-- <a href="#" class="button button--flex">
                                 Send Message

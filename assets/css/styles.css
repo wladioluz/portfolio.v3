@@ -392,7 +392,7 @@ img{
 #form-submit-btn{
     background-color: var(--first-color);
     color: #FFF;
-    padding: 1rem;
+    padding: 0.7rem;
     border-radius: .5rem;
     font-size: var(--font-medium);
     font-family: var(--body-font);
@@ -405,9 +405,9 @@ img{
     cursor: pointer;
 }
 
-/* .submit-form:hover #submit-icon{
+#form-submit-btn:hover .button__icon{
     transform: translateY(-0.5rem);
-} */
+} 
 
 /* ABOUT */
 .about__img{

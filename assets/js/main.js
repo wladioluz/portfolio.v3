@@ -189,3 +189,12 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// FORM VALIDATION 
+/* function validateForm() {
+    let x = document.forms["contact-form"]["name"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  } */
