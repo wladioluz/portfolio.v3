@@ -1277,6 +1277,13 @@ img{
     }
 }
 
+/* Avoid Submit button overlay with #scrollup button */
+@media screen and (max-width: 1023px) {
+    #form-submit-btn{
+        float: left;
+    }
+}
+
 /* For large devices */
 @media screen and (min-width: 1024px) {
     .header,
