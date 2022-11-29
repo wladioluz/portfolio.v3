@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+/*============ ROOT ============*/
 :root {
     --header-height: 3rem;
 
@@ -93,7 +94,7 @@ body.dark-theme{
     color: var(--first-color);
 }
 
-/* BASE */
+/*============ BASE ============*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -135,7 +136,7 @@ img{
 }
 
 
-/* reusable CSS classes */
+/*============ REUSABLE CSS CLASSES ============*/
 .section{
     padding: 2rem 0 4rem;
 }
@@ -267,7 +268,7 @@ img{
     box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 }
 
-/* HOME */
+/*============ HOME ============*/
 .home__container{
     gap: 1rem;
 }
@@ -349,7 +350,7 @@ img{
     font-size: 1.25rem;
 }
 
-/* BUTTONS */
+/*============ BUTTONS ============*/
 .button{
     display: inline-block;
     background-color: var(--first-color);
@@ -418,7 +419,7 @@ img{
     transform: translateY(-0.5rem);
 } 
 
-/* ABOUT */
+/*============ ABOUT ============*/
 .about__img{
     width: 200px;
     border-radius: .5rem;
@@ -458,7 +459,7 @@ img{
     justify-content: center;
 }
 
-/* SKILLS */
+/*============ SKILLS ============*/
 .skills__container{
     row-gap: 0;
 }
@@ -524,14 +525,22 @@ img{
 }
 
 .skills__html{
-    width: 90%;
-}
-
-.skills__css{
     width: 80%;
 }
 
+.skills__css{
+    width: 70%;
+}
+
 .skills__js{
+    width: 60%;
+}
+
+.skills__jq{
+    width: 60%;
+}
+
+.skills__bootstrap{
     width: 60%;
 }
 
@@ -540,11 +549,11 @@ img{
 }
 
 .skills__php{
-    width: 80%;
+    width: 50%;
 }
 
-.skills__node{
-    width: 70%;
+.skills__sql{
+    width: 40%;
 }
 
 .skills__firebase{
@@ -570,7 +579,7 @@ img{
     transform: rotate(-180deg);
 }
 
-/* QUALIFICATIONS */
+/*============ QUALIFICATIONS ============*/
 .qualifications__tabs{
     display: flex;
     justify-content: space-evenly;
@@ -614,7 +623,8 @@ img{
 .qualifications__subtitle{
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
+    margin-top: var(--mb-0-5);
+    margin-bottom: var(--mb-0-5);
 }
 
 .qualifications__calendar{
@@ -650,7 +660,7 @@ img{
     color: var(--first-color);
 }
 
-/* SERVICES */
+/*============ SERVICES ============*/
 .services__container{
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr); 
@@ -749,7 +759,7 @@ img{
     visibility: visible;
 }
 
-/* PORTFOLIO */
+/*============ PORTFOLIO ============*/
 .portfolio__container{
     overflow: initial;
 }
@@ -809,7 +819,7 @@ img{
     outline: none;
 }
 
-/* PROJECT IN MIND */
+/*============ PROJECT IN MIND ============*/
 .project{
     text-align: center;
 }
@@ -840,7 +850,7 @@ img{
     margin-bottom: 1rem;
 }
 
-/* TESTIMONIAL */
+/*============ TESTIMONIAL ============*/
 .testimonial__data,
 .testimonial__header{
     display: flex ;
@@ -880,7 +890,7 @@ img{
     bottom: 0;
 }
 
-/* CONTACT ME */
+/*============ CONTACT ME ============*/
 .contact__container{
     row-gap: 3rem;
 }
@@ -934,7 +944,7 @@ img{
     color: var(--title-color);
 }
 
-/* FOOTER */
+/*============ FOOTER ============*/
 .footer__container{
     row-gap: 3.5rem;
 }
@@ -1011,7 +1021,7 @@ img{
     bottom: 5rem;
 }
 
-/* SCROLL BAR */
+/*============ SCROLL BAR ============*/
 ::-webkit-scrollbar{
     width: .60rem;
     background-color: var(--scroll-bar-color);

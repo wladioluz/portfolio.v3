@@ -1,4 +1,4 @@
-/* show|hide menu */
+/*============ SHOW|HIDE MENU ============*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')
@@ -15,7 +15,9 @@ if(navClose){
     })
 }
 
-/* remove menu [mobile] */
+
+
+/*============ REMOVE MENU [MOBILE] ============*/
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
@@ -26,7 +28,9 @@ function linkAction(){
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/* toggle Skills */
+
+
+/*============ TOGGLE SKILLS ============*/
 const skillsContent = document.getElementsByClassName('skills__content'),
       skillsHeader = document.querySelectorAll('.skills__header')
 
@@ -45,7 +49,9 @@ skillsHeader.forEach((el) => {
     el.addEventListener('click', toggleSkills)
 })
 
-/* Qualifications tabs */
+
+
+/*============ QUALIFICATIONS TABS ============*/
 const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
 
@@ -65,7 +71,10 @@ tabs.forEach(tab =>{
     })
 })
 
-/* SERVICES MODAL */
+
+
+
+/*============ SERVICES MODAL ============*/
 const modalViews = document.querySelectorAll('.services__modal'),
       modalBtns = document.querySelectorAll('.services__button'),
       modalCloses = document.querySelectorAll('.services__modal-close')
@@ -88,7 +97,9 @@ modalCloses.forEach((modalClose) => {
     })
 })
 
-/* SWIPER */
+
+
+/*============ SWIPER ============*/
 let swiperPortfolio = new Swiper(".portfolio__container", {
     cssMode: true,
     loop: true,
@@ -101,9 +112,9 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
       el: ".swiper-pagination",
       clickable: true,
     },
-  });
+});
 
-  let swiperTestimonial = new Swiper(".testimonial__container", {
+let swiperTestimonial = new Swiper(".testimonial__container", {
     loop: true,
     grabCursor: true,
     spaceBetween: 48,
@@ -118,9 +129,11 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
             slidesPerView: 2,
         }
     }
-  });
+});
 
-/* SCROLL SECTIONS ACTIVE LINK */
+
+
+/*============ SCROLL SECTIONS ACTIVE LINK ============*/
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -141,7 +154,9 @@ function scrollActive(){
 
 window.addEventListener('scroll', scrollActive)
 
-/* CHANGE BACKGROUND HEADER */
+
+
+/*============ CHANGE BACKGROUND HEADER ============*/
 function scrollHeader(){
     const nav = document.getElementById('header')
     //When the scroll is greater than 80 viewport height, add the scroll-header class to the header tag
@@ -150,7 +165,9 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
-/* SHOW SCROLL UP */
+
+
+/*============ SHOW SCROLL UP ============*/
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
     //When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scro
@@ -159,7 +176,9 @@ function scrollUp(){
 }
 window.addEventListener('scroll', scrollUp)
 
-/* DARK/LIGHT THEME */
+
+
+/*============ DARK|LIGHT THEME ============*/
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
@@ -190,7 +209,9 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-// FORM VALIDATION 
+
+
+/*============ FORM VALIDATION ============*/
 /* function validateForm() {
     let x = document.forms["contact-form"]["name"].value;
     if (x == "") {
