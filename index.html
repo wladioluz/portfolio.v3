@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="assets/img/logo2-b-w.ico">
         <title>Wlad's Portfolio</title>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJPLCQXR3"></script>
@@ -21,7 +21,7 @@
     <body>
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Wlad</a>
+                <a href="#"><img src="assets/img/logo2-b-w.png" alt="" id="nav__logo__img"></a>
                 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
@@ -72,7 +72,7 @@
 
         <main class="main">
 
-            <!-- HOME -->
+            <!------------------- HOME -------------------->
             <section class="home section" id="home">
                 <div class="home__container container grid">
                     <div class="home__content grid">
@@ -111,7 +111,7 @@
                         <div class="home__data">
                             <h1 class="home__title">Hi, I'm <span id="name__in__color">Wlad</span></h1>
                             <h3 class="home__subtitle">Web Developer</h3>
-                            <p class="home__description">my bio</p>
+                            <p class="home__description" hidden>my bio</p>
                             <a href="#contact" class="button button--flex">
                                 Contact Me<i class="uil uil-message button__icon"></i>
                             </a>
@@ -128,7 +128,7 @@
                 </div>
             </section>
 
-            <!-- ABOUT -->
+            <!------------------- ABOUT -------------------->
             <section class="about section" id="about">
                 <h2 class="section__title">About Me</h2>
                 <span class="section__subtitle">My introduction</span>
@@ -137,22 +137,22 @@
                     <img src="assets/img/IMG_0303.jpg" alt="" class="about__img">
 
                     <div class="about__data">
-                        <p class="about__description">My introduction</p>
+                        <p class="about__description">Entry-level Web Developer<br>Former Full-Time Logistics Specialist</p>
 
                         <div class="about__info">
                             <div>
-                                <span class="about__info-title">08+</span>
-                                <span class="about__info-name">Years <br> experience</span>
+                                <span class="about__info-title">6+</span>
+                                <span class="about__info-name">Years working experience</span>
                             </div>
 
                             <div>
-                                <span class="about__info-title">20+</span>
-                                <span class="about__info-name">Completed <br> projects</span>
+                                <span class="about__info-title">2+</span>
+                                <span class="about__info-name">Years in Web Development</span>
                             </div>
 
                             <div>
-                                <span class="about__info-title">05+</span>
-                                <span class="about__info-name">Companies <br> worked for</span>
+                                <span class="about__info-title">3+</span>
+                                <span class="about__info-name">Companies worked for</span>
                             </div>
                         </div>
 
@@ -165,7 +165,7 @@
                 </div>
             </section>
 
-            <!-- SKILLS -->
+            <!------------------- SKILLS -------------------->
             <section class="skills section" id="skills">
                 <h2 class="section__title">Skills</h2>
                 <span class="section__subtitle">My technical level</span>
@@ -284,7 +284,7 @@
                 </div>
             </section>
 
-            <!-- QUALIFICATIONS -->
+            <!------------------- QUALIFICATIONS -------------------->
             <section class="qualifications section">
                 <h2 class="section__title">Qualifications</h2>
                 <span class="section__subtitle">My personal journey</span>
@@ -445,7 +445,7 @@
                 </div>
             </section>
 
-            <!-- SERVICES -->
+            <!------------------- SERVICES -------------------->
             <section class="services section" id="services">
                 <h2 class="section__title">Services</h2>
                 <span class="section__subtitle">What I offer</span>
@@ -571,7 +571,7 @@
                 </div>
             </section>
 
-            <!-- PORTFOLIO -->
+            <!------------------- PORTFOLIO -------------------->
             <section class="portfolio section" id="portfolio">
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent work</span>
@@ -633,13 +633,13 @@
                 </div>
             </section>
 
-            <!-- PROJECT IN MIND -->
+            <!------------------- PROJECT IN MIND -------------------->
             <section class="project section">
                 <div class="project__bg">
                     <div class="project__container container grid">
                         <div class="project__data">
                             <h2 class="project__title">You have a new project?</h2>
-                            <p class="project__description">Contact me and get a discount</p>
+                            <p class="project__description" hidden>Contact me and get a discount</p>
                             <a href="#contact" class="button button--flex button--white">
                                 Contact Me
                                 <i class="uil uil-message project__icon button__icon"></i>
@@ -651,8 +651,8 @@
                 </div>
             </section>
 
-            <!-- TESTIMONIAL -->
-            <section class="testimonial section">
+            <!------------------- TESTIMONIAL -------------------->
+            <section class="testimonial section" hidden>
                 <h2 class="section__title">Testimonial</h2>
                 <span class="section__subtitle">My clients saying</span>
 
@@ -739,14 +739,14 @@
                 </div>
             </section>
 
-            <!-- CONTACT ME -->
+            <!------------------- CONTACT ME -------------------->
             <section class="contact section" id="contact">
                 <h2 class="section__title">Contact Me</h2>
                 <span class="section__subtitle">Get in touch</span>
 
                 <div class="contact__container container grid">
                     <div>
-                        <div class="contact__information">
+                        <div class="contact__information" style="display: none;">
                             <i class="uil uil-phone contact__icon"></i>
 
                             <div>
@@ -760,7 +760,7 @@
 
                             <div>
                                 <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">wlad@email.com</span>
+                                <span class="contact__subtitle"><a href="mailto:w.pylypczuk@gmail.com" class="contact__subtitle__action">w.pylypczuk@gmail.com</a></span>
                             </div>
                         </div>
 
@@ -769,7 +769,7 @@
 
                             <div>
                                 <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">Planet Earth</span>
+                                <span class="contact__subtitle">US/Europe</span>
                             </div>
                         </div>
                     </div>
@@ -808,7 +808,7 @@
             </section>
         </main>
 
-        <!-- FOOTER -->
+        <!------------------- FOOTER -------------------->
         <footer class="footer">
             <div class="footer__bg">
                 <div class="footer__container container grid">
