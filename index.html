@@ -21,7 +21,7 @@
     <body>
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#"><img src="assets/img/logo2-b-w.png" alt="" id="nav__logo__img"></a>
+                <a href="#"><!-- <img src="assets/img/logo2-b-w.png" alt="" id="nav__logo__img"> --><h2>wlad</h2></a>
                 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
@@ -41,6 +41,11 @@
                             </a>
                         </li>
                         <li class="nav__item">
+                            <a href="#qualifications" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Education/Work
+                            </a>
+                        </li>
+                        <li class="nav__item" hidden>
                             <a href="#services" class="nav__link">
                                 <i class="uil uil-briefcase-alt nav__icon"></i> Services
                             </a>
@@ -287,7 +292,7 @@
             </section>
 
             <!------------------- QUALIFICATIONS -------------------->
-            <section class="qualifications section">
+            <section class="qualifications section" id="qualifications">
                 <h2 class="section__title">Qualifications</h2>
                 <span class="section__subtitle">My personal journey</span>
 
@@ -503,7 +508,7 @@
             </section>
 
             <!------------------- SERVICES -------------------->
-            <section class="services section" id="services">
+            <section class="services section" id="services" hidden>
                 <h2 class="section__title">Services</h2>
                 <span class="section__subtitle">What I offer</span>
 
@@ -875,7 +880,22 @@
                     </div>
 
                     <ul class="footer__links">
+
+
                         <li>
+                            <a href="#home" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#qualifications" class="footer__link">Education/Work</a>
+                        </li>
+                        
+                        <li hidden>
                             <a href="#services" class="footer__link">Services</a>
                         </li>
                         <li>
@@ -884,6 +904,8 @@
                         <li>
                             <a href="#contact" class="footer__link">Contact</a>
                         </li>
+
+
                     </ul>
 
                     <div class="footer__socials">
