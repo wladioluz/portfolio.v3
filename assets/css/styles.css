@@ -1298,9 +1298,11 @@ img{
     .footer__links{
         flex-direction: row;
         column-gap: 2rem;
+        padding-top: var(--mb-1);
     }
     .footer__socials{
         justify-self: flex-end;
+        margin-top: 0.75rem;
     }
     .footer__copy{
         margin-top: 4.5rem;
