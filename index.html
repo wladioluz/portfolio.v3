@@ -178,7 +178,7 @@
 
                         <!-- Skill #1 -->
                         <div class="skills__content skills__close">
-                            <div class="skills__header" role="button">
+                            <div class="skills__header" role="button" tabindex="0">
                                 <i class="uil uil-brackets-curly skills__icon"></i>
 
                                 <div>
@@ -254,7 +254,7 @@
 
                         <!-- Skill #2 -->
                         <div class="skills__content skills__close">
-                            <div class="skills__header" role="button">
+                            <div class="skills__header" role="button" tabindex="0">
                                 <i class="uil uil-server-network skills__icon"></i>
 
                                 <div>
@@ -848,20 +848,20 @@
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="name"  class="contact__label">Name <small style="color: red;">*</small></label>
-                                <input type="text" name="name" class="contact__input" required aria-required="true">
+                                <input type="text" name="name" class="contact__input" required aria-required="true" aria-label="name">
                             </div>
                             <div class="contact__content">
                                 <label for="email"  class="contact__label">Email <small style="color: red;">*</small></label>
-                                <input type="email" name="email" class="contact__input" required aria-required="true">
+                                <input type="email" name="email" class="contact__input" required aria-required="true" aria-label="email">
                             </div>
                         </div>
                         <div class="contact__content">
                             <label for="project"  class="contact__label">Project</label>
-                            <input type="text" name="project" class="contact__input">
+                            <input type="text" name="project" class="contact__input" aria-label="project">
                         </div>
                         <div class="contact__content">
                             <label for="message" name="message" class="contact__label">Message <small style="color: red;">*</small></label>
-                            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required aria-required="true"></textarea>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required aria-required="true" aria-label="message"></textarea>
                         </div>
 
                         <div>
