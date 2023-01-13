@@ -20,7 +20,7 @@
     <body>
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#"><!-- <img src="assets/img/logo2-b-w.png" alt="" id="nav__logo__img"> --><h2>wlad</h2></a>
+                <a href="#" role="button"><!-- <img src="assets/img/logo2-b-w.png" alt="" id="nav__logo__img"> --><h2>wlad</h2></a>
                 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
@@ -63,9 +63,9 @@
                     <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
 
-                <div class="nav__btns">
+                <div class="nav__btns" tabindex="0">
                     <!-- Theme change button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <i class="uil uil-moon change-theme" id="theme-button" tabindex="0" role="button" aria-label="change between light and dark themes"></i>
 
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
@@ -81,15 +81,15 @@
                 <div class="home__container container grid">
                     <div class="home__content grid">
                         <div class="home__social">
-                            <a href="https://www.linkedin.com/in/wpylypczuk" target="_blank" class="home__social-icon">
+                            <a href="https://www.linkedin.com/in/wpylypczuk" target="_blank" class="home__social-icon" aria-label="Wlad's LinkedIn, link opens in the new tab">
                                 <i class="uil uil-linkedin-alt"></i>
                             </a>
 
-                            <a href="https://www.instagram.com/wladioluz" target="_blank" class="home__social-icon">
+                            <a href="https://www.instagram.com/wladioluz" target="_blank" class="home__social-icon" aria-label="Wlad's Instagram, link opens in the new tab">
                                 <i class="uil uil-instagram"></i>
                             </a>
 
-                            <a href="https://github.com/wladioluz" target="_blank" class="home__social-icon">
+                            <a href="https://github.com/wladioluz" target="_blank" class="home__social-icon" aria-label="Wlad's GitHub, link opens in the new tab">
                                 <i class="uil uil-github-alt"></i>
                             </a>
                         </div>
@@ -138,7 +138,7 @@
                 <span class="section__subtitle">My introduction</span>
 
                 <div class="about__container container grid">
-                    <img src="assets/img/IMG_0303.jpg" alt="" class="about__img">
+                    <img src="assets/img/IMG_0303.jpg" alt="Wlad's passport-style photo" class="about__img">
 
                     <div class="about__data">
                         <p class="about__description">Entry-level Web Developer<br>Former Full-Time Logistics Specialist</p>
@@ -178,11 +178,11 @@
 
                         <!-- Skill #1 -->
                         <div class="skills__content skills__close">
-                            <div class="skills__header">
+                            <div class="skills__header" role="button">
                                 <i class="uil uil-brackets-curly skills__icon"></i>
 
                                 <div>
-                                    <h1 class="skills__title">Frontend developer</h1>
+                                    <h1 class="skills__title" tabindex="0">Frontend developer</h1>
                                     <span class="skills__subtitle">More than 1 year</span>
                                 </div>
 
@@ -254,11 +254,11 @@
 
                         <!-- Skill #2 -->
                         <div class="skills__content skills__close">
-                            <div class="skills__header">
+                            <div class="skills__header" role="button">
                                 <i class="uil uil-server-network skills__icon"></i>
 
                                 <div>
-                                    <h1 class="skills__title">Backend developer</h1>
+                                    <h1 class="skills__title" tabindex="0">Backend developer</h1>
                                     <span class="skills__subtitle">Half year</span>
                                 </div>
 
@@ -298,12 +298,12 @@
                 <div class="qualifications__container container">
                     <div class="qualifications__tabs">
 
-                        <div id="education-button" class="qualifications__button button--flex qualifications__active" data-target='#education'>
+                        <div id="education-button" role="button" tabindex="0" class="qualifications__button button--flex qualifications__active" data-target='#education'>
                             <i class="uil uil-graduation-cap qualifications__icon"></i>
                             Education
                         </div>
 
-                        <div id="work-button" class="qualifications__button button--flex" data-target="#work">
+                        <div id="work-button" role="button" tabindex="0" class="qualifications__button button--flex" data-target="#work">
                             <i class="uil uil-briefcase-alt qualifications__icon"></i>
                             Work
                         </div>
@@ -641,12 +641,12 @@
                     <div class="swiper-wrapper">
                         <!-- PORTFOLIO 1 -->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/wladp-netlify-app-snapshot.png" alt="" class="portfolio__img"> 
+                            <img src="assets/img/wladp-netlify-app-snapshot.png" alt="screenshot of this portfolio website both computer-view and mobile-view" class="portfolio__img"> 
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Modern Portfolio Website</h3>
                                 <p class="portfolio__description">Adaptive website with UI/UX, Dark/Light themes</p>
-                                <a href="#" class="button button--flex button--small portfolio__button">
+                                <a href="#" role="button" class="button button--flex button--small portfolio__button">
                                     Demo
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -655,7 +655,7 @@
                         
                         <!-- PORTFOLIO 2 -->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/wladioluz-github-io-snapshot.png" alt="" class="portfolio__img"> 
+                            <img src="assets/img/wladioluz-github-io-snapshot.png" alt="screenshot of the first portfolio website both computer-view and mobile-view" class="portfolio__img"> 
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Portfolio Website</h3>
@@ -669,7 +669,7 @@
 
                         <!-- PORTFOLIO 3 -->
                         <div class="portfolio__content grid swiper-slide" hidden>
-                            <img src="assets/img/timebox.png" alt="" class="portfolio__img"> 
+                            <img src="assets/img/timebox.png" alt="screenshot of the timebox web-app with productivity ring" class="portfolio__img"> 
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Timebox Web-App</h3>
@@ -707,7 +707,7 @@
                             </a>
                         </div>
 
-                        <img src="assets/img/web-dev-cover-vector-wo-c.jpg" alt="" class="project__img">
+                        <img src="assets/img/web-dev-cover-vector-wo-c.jpg" alt="cover picture of the modern website both computer and mobile view, with keywords such as SEO, PHP and HTML" class="project__img">
                     </div>
                 </div>
             </section>
@@ -821,7 +821,7 @@
 
                             <div>
                                 <h3 class="contact__title">Message</h3>
-                                <span class="contact__subtitle"><a href="https://www.linkedin.com/in/wpylypczuk" class="contact__subtitle__action">linkedin.com/in/wpylypczuk</a></span>
+                                <span class="contact__subtitle"><a href="https://www.linkedin.com/in/wpylypczuk" class="contact__subtitle__action" target="_blank" aria-label="Wlad's LinkedIn, link opens in the new tab">linkedin.com/in/wpylypczuk</a></span>
                             </div>
                         </div>
 
@@ -848,11 +848,11 @@
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="name"  class="contact__label">Name <small style="color: red;">*</small></label>
-                                <input type="text" name="name" class="contact__input" required>
+                                <input type="text" name="name" class="contact__input" required aria-required="true">
                             </div>
                             <div class="contact__content">
                                 <label for="email"  class="contact__label">Email <small style="color: red;">*</small></label>
-                                <input type="email" name="email" class="contact__input" required>
+                                <input type="email" name="email" class="contact__input" required aria-required="true">
                             </div>
                         </div>
                         <div class="contact__content">
@@ -861,7 +861,7 @@
                         </div>
                         <div class="contact__content">
                             <label for="message" name="message" class="contact__label">Message <small style="color: red;">*</small></label>
-                            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required aria-required="true"></textarea>
                         </div>
 
                         <div>
@@ -917,15 +917,15 @@
                     </ul>
 
                     <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/wpylypczuk" target="_blank" class="footer__social">
+                        <a href="https://www.linkedin.com/in/wpylypczuk" target="_blank" class="footer__social" aria-label="Wlad's LinkedIn, link opens in the new tab">
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
 
-                        <a href="https://www.instagram.com/wladioluz" target="_blank" class="footer__social">
+                        <a href="https://www.instagram.com/wladioluz" target="_blank" class="footer__social" aria-label="Wlad's Instagram, link opens in the new tab">
                             <i class="uil uil-instagram"></i>
                         </a>
 
-                        <a href="https://github.com/wladioluz" target="_blank" class="footer__social">
+                        <a href="https://github.com/wladioluz" target="_blank" class="footer__social" aria-label="Wlad's GitHub, link opens in the new tab">
                             <i class="uil uil-github-alt"></i>
                         </a>
                     </div>
@@ -935,7 +935,7 @@
             </div>
         </footer>
 
-        <a href="#" class="scrollup" id="scroll-up">
+        <a href="#" role="button" class="scrollup" id="scroll-up" aria-label="scroll up to the top of the page">
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
 
