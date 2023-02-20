@@ -14,6 +14,7 @@
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --text-color-dark: hsl(var(--hue-color), 8%, 29%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #FFF;
@@ -920,6 +921,10 @@ img{
     font-size: var(--small-font-size);
     color: var(--text-color-light);
     cursor: pointer;
+}
+
+.contact__subtitle__action:hover{
+    color: var(--text-color-dark);
 }
 
 .contact__content{
