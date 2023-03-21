@@ -400,6 +400,10 @@ img{
     color: var(--first-color-alt);
 }
 
+#btn-portfolio{
+    margin-right: var(--mb-0-5);
+}
+
 #form-submit-btn{
     background-color: var(--first-color);
     color: #FFF;
