@@ -774,14 +774,14 @@ img {
 
 .portfolio__content {
   padding: 0 1.5rem;
-  grid-template-columns: 1fr !important;
+  grid-template-columns: 1fr;
   justify-items: center;
   align-items: center;
   text-align: center;
 }
 
 .portfolio__img {
-  width: 60vw;
+  width: 75vw;
   max-width: 730px;
   border-radius: 0.5rem;
   justify-self: center;
@@ -1130,7 +1130,6 @@ img {
   }
 
   .about__container,
-  .portfolio__content,
   .project__container,
   .contact__container,
   .footer__container {
@@ -1282,8 +1281,8 @@ img {
     width: 450px;
   }
 
-  .portfolio__content {
-    align-items: center;
+  .portfolio__img {
+    width: 60vw;
   }
 
   .project {
