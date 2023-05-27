@@ -138,6 +138,21 @@ img {
   color: var(--first-color);
 }
 
+/*============ WHOLE PAGE FADE-IN ONLOAD ============*/
+.fade-in {
+  opacity: 0;
+  animation: fade-in 1.5s ease-in forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /*============ REUSABLE CSS CLASSES ============*/
 .section {
   padding: 2rem 0 4rem;
