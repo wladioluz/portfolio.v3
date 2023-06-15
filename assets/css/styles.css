@@ -153,6 +153,44 @@ img {
   }
 }
 
+/*============ TRANSLATOR ============*/
+.country-selector {
+  margin-bottom: 1.3rem;
+}
+
+@media screen and (max-width: 767px) {
+  .country-selector {
+    margin-bottom: 3.4rem;
+  }
+  .show-scroll {
+    bottom: 6rem !important;
+  }
+}
+
+.country-selector a {
+  color: #fff !important;
+}
+
+.weglot-container {
+  z-index: var(--z-fixed) !important;
+}
+
+.wg-drop.country-selector,
+.wg-drop.country-selector ul {
+  background-color: var(--first-color) !important;
+  border-radius: 0.5rem;
+}
+
+.wg-drop.country-selector:hover,
+.wg-drop.country-selector ul {
+  background-color: var(--first-color-alt) !important;
+}
+
+.wg-drop.country-selector .wgcurrent,
+.wg-drop.country-selector ul {
+  border: none !important;
+}
+
 /*============ REUSABLE CSS CLASSES ============*/
 .section {
   padding: 2rem 0 4rem;
